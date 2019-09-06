@@ -1,0 +1,32 @@
+<div class="title">
+  <h1>Live Blog</h1>
+  <p>Show View</p>
+</div>
+
+<div class="container" style="text-align:center">
+    <div class="">
+      Post title: <%= @post.title %>
+    </div>
+    <div class="">
+      Post media: <img src="<%= @post.media %>" width="25%">
+    </div>
+    <div class="">
+      Post author <%= @post.author %>
+    </div>
+    <div class="">
+      Post content:<br/>
+      <%= @post.body %>
+    </div>
+    <div class="">
+      Post likes
+      <%= @post.likes %>
+    </div>
+    <div class="">
+      Post sponsored:
+      <%= @post.sponsored %>
+    </div>
+    <div class="">
+      Due date:
+      <%= @post.due_date %>
+    </div>
+</div>

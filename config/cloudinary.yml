@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dpmugrqno
+  api_key: '187524583871345'
+  api_secret: r8f9WCqUtAAv6NZ0jngCMLZjEXQ
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: dpmugrqno
+  api_key: '187524583871345'
+  api_secret: r8f9WCqUtAAv6NZ0jngCMLZjEXQ
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: dpmugrqno
+  api_key: '187524583871345'
+  api_secret: r8f9WCqUtAAv6NZ0jngCMLZjEXQ
+  enhance_image_tag: true
+  static_file_support: false

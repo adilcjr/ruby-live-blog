@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyText
+  body: MyText
+  author: MyText
+  media: MyText
+  likes: 
+  sponsored: false
+  due_date: 2019-09-06
+
+two:
+  title: MyText
+  body: MyText
+  author: MyText
+  media: MyText
+  likes: 
+  sponsored: false
+  due_date: 2019-09-06
